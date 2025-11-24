@@ -2,7 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { useFinance } from '../context/FinanceContext';
 import SEO from './SEO';
 import GlassCard from './ui/GlassCard';
-import { TrendingUp, TrendingDown, DollarSign, FileText, Plus, Download } from 'lucide-react';
+import { TrendingUp, TrendingDown, DollarSign, FileText, Download } from 'lucide-react';
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 import NeoButton from './ui/NeoButton';
 import ExpenseForm from './expenses/ExpenseForm';
@@ -51,20 +51,9 @@ const Dashboard: React.FC = () => {
                     <h1 className="text-3xl font-bold text-white">Dashboard</h1>
                     <p className="text-secondary">Overview of your financial health</p>
                 </div>
-                <div className="flex gap-3">
-                    <NeoButton variant="secondary" icon={Download} onClick={() => setIsExportModalOpen(true)}>
-                        Download to Excel
-                    </NeoButton>
-                    <NeoButton icon={Plus} onClick={() => setIsExpenseModalOpen(true)} className="bg-danger hover:bg-danger/80">
-                        Add Expense
-                    </NeoButton>
-                    <NeoButton icon={Plus} onClick={() => setIsIncomeModalOpen(true)} className="bg-success hover:bg-success/80">
-                        Add Income
-                    </NeoButton>
-                    <NeoButton icon={Plus} onClick={() => setIsInvoiceModalOpen(true)} className="bg-accent hover:bg-accent/80">
-                        Create Invoice
-                    </NeoButton>
-                </div>
+                <NeoButton variant="secondary" icon={Download} onClick={() => setIsExportModalOpen(true)}>
+                    Download to Excel
+                </NeoButton>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
