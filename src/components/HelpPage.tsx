@@ -1,10 +1,16 @@
 import React from 'react';
 import GlassCard from './ui/GlassCard';
+import SEO from './SEO';
 import { FileText, Download, Upload, LayoutDashboard } from 'lucide-react';
 
 const HelpPage: React.FC = () => {
     return (
         <div className="p-6 max-w-7xl mx-auto space-y-6">
+            <SEO
+                title="Help & Documentation - oceanwix Finance Tracker Guide"
+                description="Learn how to use oceanwix features. Complete guide for expense tracking, income management, and invoice generation."
+                keywords="finance app help, invoice generator guide, expense tracker tutorial, finance management help, oceanwix documentation"
+            />
             <div>
                 <h1 className="text-3xl font-bold text-white">Help & Documentation</h1>
                 <p className="text-secondary">Learn how to use oceanwix features</p>
