@@ -14,7 +14,7 @@ const SEO: React.FC<SEOProps> = ({
     description,
     keywords = "finance, invoice generator, expense tracker, income tracker, free finance app",
     type = 'website',
-    name = 'FinanceLite'
+    name = 'financewix'
 }) => {
     return (
         <Helmet>

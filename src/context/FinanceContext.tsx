@@ -24,10 +24,10 @@ interface FinanceContextType {
 const FinanceContext = createContext<FinanceContextType | undefined>(undefined);
 
 export const FinanceProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-    const [expenses, setExpenses] = useLocalStorage<Expense[]>('financelite_expenses', []);
-    const [income, setIncome] = useLocalStorage<Income[]>('financelite_income', []);
-    const [invoices, setInvoices] = useLocalStorage<Invoice[]>('financelite_invoices', []);
-    const [invoiceSettings, setInvoiceSettings] = useLocalStorage<InvoiceSettings>('financelite_invoice_settings', {
+    const [expenses, setExpenses] = useLocalStorage<Expense[]>('financewix_expenses', []);
+    const [income, setIncome] = useLocalStorage<Income[]>('financewix_income', []);
+    const [invoices, setInvoices] = useLocalStorage<Invoice[]>('financewix_invoices', []);
+    const [invoiceSettings, setInvoiceSettings] = useLocalStorage<InvoiceSettings>('financewix_invoice_settings', {
         companyName: 'Your Company Name',
         companyAddress: '123 Business Street\nCity, State, Zip',
         companyEmail: 'contact@yourcompany.com',

@@ -38,7 +38,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <aside className="w-64 hidden md:flex flex-col glass-panel m-4 rounded-2xl border-white/5">
                     <div className="p-6">
                         <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                            FinanceLite
+                            financewix
                         </h1>
                     </div>
 
@@ -74,7 +74,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <main className="flex-1 overflow-y-auto p-4 md:p-0 md:mr-4 md:my-4">
                     {/* Mobile Header */}
                     <div className="md:hidden mb-6 flex items-center justify-between glass-panel p-4 rounded-xl">
-                        <h1 className="text-xl font-bold text-white">FinanceLite</h1>
+                        <h1 className="text-xl font-bold text-white">financewix</h1>
                         {/* Mobile Menu Trigger would go here */}
                     </div>
 
