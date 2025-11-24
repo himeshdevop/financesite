@@ -7,7 +7,7 @@ const HelpPage: React.FC = () => {
         <div className="p-6 max-w-7xl mx-auto space-y-6">
             <div>
                 <h1 className="text-3xl font-bold text-white">Help & Documentation</h1>
-                <p className="text-secondary">Learn how to use financewix features</p>
+                <p className="text-secondary">Learn how to use oceanwix features</p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -41,8 +41,8 @@ const Dashboard: React.FC = () => {
     return (
         <div className="p-6 max-w-7xl mx-auto space-y-6 pb-24 md:pb-6">
             <SEO
-                title="financewix - Free Personal Finance Dashboard & Income Tracker"
-                description="Track your income, expenses, and generate professional invoices for free with financewix. The best free personal finance dashboard."
+                title="oceanwix - Free Personal Finance Dashboard & Income Tracker"
+                description="Track your income, expenses, and generate professional invoices for free with oceanwix. The best free personal finance dashboard."
                 keywords="finance dashboard, free income tracker, expense tracker, personal finance app, free invoice generator"
             />
 
