@@ -5,7 +5,7 @@ import { FileText, Download, Upload, LayoutDashboard } from 'lucide-react';
 
 const HelpPage: React.FC = () => {
     return (
-        <div className="p-6 max-w-7xl mx-auto space-y-6">
+        <div className="min-h-full p-6 max-w-7xl mx-auto space-y-6 pb-24 md:pb-6">
             <SEO
                 title="Help & Documentation - oceanwix Finance Tracker Guide"
                 description="Learn how to use oceanwix features. Complete guide for expense tracking, income management, and invoice generation."

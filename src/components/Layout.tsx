@@ -78,7 +78,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                         {/* Mobile Menu Trigger would go here */}
                     </div>
 
-                    <div className="h-full rounded-2xl overflow-hidden relative">
+                    <div className="h-full rounded-2xl overflow-auto relative">
                         {children}
                     </div>
                 </main>

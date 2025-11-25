@@ -46,7 +46,7 @@ const CustomInvoices: React.FC = () => {
     };
 
     return (
-        <div className="p-6 max-w-4xl mx-auto space-y-6 pb-24 md:pb-6">
+        <div className="min-h-full p-6 max-w-4xl mx-auto space-y-6 pb-24 md:pb-6">
             <SEO
                 title="Custom Invoice Template - Personalize Your Invoices"
                 description="Customize your invoice template with your company logo, colors, and details. Create professional branded invoices for free."
